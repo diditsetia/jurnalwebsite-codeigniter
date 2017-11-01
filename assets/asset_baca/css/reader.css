@@ -1,0 +1,42 @@
+.navicon-line {
+	width: 24px;
+	height: 4px;
+	border-radius: 1px;
+	margin-bottom: 3px;
+	background-color: #fff;
+}
+.navbar-left {
+	margin-top: 18px;
+	margin-left: 20px;
+}
+
+aside#sidebar {
+	width: 90%;
+	background: transparent;
+	margin: 0px;
+}
+
+#sb-site, .sb-site-container {
+	padding: 0px;
+}
+
+section#main {
+	width: 100%;
+}
+
+#sidebar h3, #sidebar li a {
+	color: #fff;
+	text-shadow: none;
+}
+
+.sb-slidebar, header#header {
+	background: no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+.sb-active + #sb-site {
+	width: 82%;
+}
